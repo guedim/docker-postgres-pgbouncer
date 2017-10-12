@@ -43,6 +43,7 @@ For Monitoring, we will use [PgBouncer stats](https://pgbouncer.github.io/usage.
 Execute the sql file https://raw.githubusercontent.com/guedim/docker-postgres-pgbouncer/master/monitoring-pgbouncer.sql:
 
 ```sql
+# Create server and register pgbouncer
 CREATE EXTENSION dblink;
 CREATE SERVER pgbouncer FOREIGN DATA WRAPPER dblink_fdw OPTIONS (host '192.168.99.100',port '6432', dbname 'pgbouncer');
 CREATE USER MAPPING FOR PUBLIC SERVER pgbouncer OPTIONS (user 'pgbouncer');
