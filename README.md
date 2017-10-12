@@ -87,10 +87,10 @@ Finally, you can query the [PgBouncer stats](https://pgbouncer.github.io/usage.h
 
 ### References<a name="references"></a>
 
-⋅⋅* https://wiki.postgresql.org/wiki/PgBouncer
-⋅⋅* https://pgbouncer.github.io/usage.html
-⋅⋅* https://pgbouncer.github.io/faq.html
-⋅⋅* https://opensourcedbms.com/dbms/setup-pgbouncer-connection-pooling-for-postgresql-on-centosredhatfedora/https://www.enterprisedb.com/resources/tutorials/how-set-pgbouncer-connection-pooling-postgres-plus-standard-server
-⋅⋅* https://opensourcedbms.com/dbms/setup-pgbouncer-connection-pooling-for-postgresql-on-centosredhatfedora/
-⋅⋅* https://www.enterprisedb.com/resources/tutorials/how-set-pgbouncer-connection-pooling-postgres-plus-standard-server
-⋅⋅* http://get.enterprisedb.com/docs/Tutorial_All_PPSS_pgBouncer.pdf
+* https://wiki.postgresql.org/wiki/PgBouncer
+* https://pgbouncer.github.io/usage.html
+* https://pgbouncer.github.io/faq.html
+* https://opensourcedbms.com/dbms/setup-pgbouncer-connection-pooling-for-postgresql-on-centosredhatfedora/https://www.enterprisedb.com/resources/tutorials/how-set-pgbouncer-connection-pooling-postgres-plus-standard-server
+* https://opensourcedbms.com/dbms/setup-pgbouncer-connection-pooling-for-postgresql-on-centosredhatfedora/
+* https://www.enterprisedb.com/resources/tutorials/how-set-pgbouncer-connection-pooling-postgres-plus-standard-server
+* http://get.enterprisedb.com/docs/Tutorial_All_PPSS_pgBouncer.pdf
