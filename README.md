@@ -4,6 +4,13 @@ This is a simple project to install, configure and monitor [PgBouncer](https://p
 
 > This is a simple project using docker.
 
+# Table of contents
+1. [Install](#install)
+2. [Configuration](#configuration)
+3. [Monitoring](#monitoring)
+4. [References](#references)
+
+
 ### Install services<a name="install"></a>
 
 Download the [docker-compose](https://docs.docker.com/compose/) file:
@@ -19,7 +26,7 @@ docker-compose up
 
 ### Configuration<a name="configuration"></a>
 
-Access to [PgAdmin](https://www.pgadmin.org))  console, using http://192.168.99.100:5050
+Access to [PgAdmin](https://www.pgadmin.org)  console, using http://192.168.99.100:5050
 
 > Use the credentials:
 > Username:pgbouncer_database
@@ -36,7 +43,7 @@ Create a server, but dont forget to use the [PgBouncer](https://pgbouncer.github
 
 Now, you are connected to Postgres but using [PgBouncer](https://pgbouncer.github.io).
 
-### Monitoring<a name="install"></a>
+### Monitoring<a name="monitoring"></a>
 
 For Monitoring, we will use [PgBouncer stats](https://pgbouncer.github.io/usage.html) in one new database schema.
 
@@ -59,4 +66,7 @@ CREATE VIEW pgbouncer.servers 	AS SELECT * FROM dblink('pgbouncer', 'show server
 CREATE VIEW pgbouncer.sockets 	AS SELECT * FROM dblink('pgbouncer', 'show sockets') 	AS _(type text, "user" text, database text, state text, addr text, port int, local_addr text, local_port int, connect_time timestamp with time zone, request_time timestamp with time zone, ptr text, link text, recv_pos int, pkt_pos int, pkt_remain int, send_pos int, send_remain int, pkt_avail int, send_avail int);
 ```
 
+Finally, you can query the [PgBouncer stats](https://pgbouncer.github.io/usage.html) 
 
+
+### References<a name="references"></a>
