@@ -37,7 +37,7 @@ Access to [PgAdmin](https://www.pgadmin.org)  console, using http://192.168.99.1
 > Password:12345678
 
 <p align="center">
-<img src="https://github.com/guedim/docker-postgres-pgbouncer/blob/master/resources/images/pgadmin_login.png" height="400" width="600" >
+<img src="https://github.com/guedim/docker-postgres-pgbouncer/blob/master/resources/images/pgadmin_login.png" height="200" width="300" >
 </p>
 
 Create a server, but dont forget to use the [PgBouncer](https://pgbouncer.github.io) credentials, host and port:
@@ -50,9 +50,8 @@ Create a server, but dont forget to use the [PgBouncer](https://pgbouncer.github
 > database:postgres
 
 <p align="center">
-<img src="https://github.com/guedim/docker-postgres-pgbouncer/blob/master/resources/images/create_server.png" height="400" width="600" >
+<img src="https://github.com/guedim/docker-postgres-pgbouncer/blob/master/resources/images/create_server.png" height="300" width="350" >
 </p>
-
 
 Now, you are connected to Postgres but using [PgBouncer](https://pgbouncer.github.io).
 
@@ -82,7 +81,7 @@ CREATE VIEW pgbouncer.sockets 	AS SELECT * FROM dblink('pgbouncer', 'show socket
 Finally, you can query the [PgBouncer stats](https://pgbouncer.github.io/usage.html) 
 
 <p align="center">
-<img src="https://github.com/guedim/docker-postgres-pgbouncer/blob/master/resources/images/monitoring.png" height="400" width="600" >
+<img src="https://github.com/guedim/docker-postgres-pgbouncer/blob/master/resources/images/monitoring.png" height="300" width="800" >
 </p>
 
 
