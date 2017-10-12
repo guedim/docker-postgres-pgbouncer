@@ -24,7 +24,7 @@ Later, start the services ([Postgres](https://www.postgresql.org/) - [PgBouncer]
 docker-compose up
 ```
 <p align="center">
-<img src="https://github.com/guedim/docker-postgres-pgbouncer/blob/master/resources/images/docker-compose-up.png" height="400" width="600" >
+<img src="https://github.com/guedim/docker-postgres-pgbouncer/blob/master/resources/images/docker-compose-up.png" height="200" width="300" >
 </p>
 
 
